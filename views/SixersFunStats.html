@@ -1,0 +1,182 @@
+<html>
+  <head>
+    <title>Sixers!</title>
+    <link rel="stylesheet" href="../stylesheets/funStatsStyles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+
+    <!-- JQuery for manipulating/displaying scraped data from NBA.com & LibertyBallers.com -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  </head>
+
+  <body>
+  <div id='mod'>
+    <!-- BELOW IS THE BOOTSTRAP CODE FOR THE NAVBAR --> 
+   <nav class="navbar navbar-custom static-top" style='margin-bottom: -55px'>
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://s-miller.com">Home</a>
+          </div> <!-- Closes 'HOME' Header for navbar-->
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><div><a href="http://s-miller.com/Dev/Angular/#/resume"  id='aDown'>Resume</a></div></li>
+            <!--   <li><div><a href="http://s-miller.com/Dev/Angular/#/toDoList"  id='aDown'>To-Do List</a></div></li> -->
+             
+              <li class="dropdown">
+                <div id='navDown1' class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Find Me <span class="caret"></span></div>
+                 <!-- Below: list that appears when user click 'Find Me', icons and text for each -->
+                <ul class="dropdown-menu inner" style='min-width: 180px'>
+                  <li>
+                    <div id="iContainer" style="white-space:nowrap">
+                      <div id="image" style="display:inline;">
+                         <img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png"  width="20%"/>
+                      </div>
+                      <div id="texts" style="display:inline; white-space:nowrap"> 
+                        <a href="https://github.com/ScottMillerWesCoas" target="_blank" style='text-decoration: none; color: #000'>GitHub</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div id="iContainer" style="white-space:nowrap">
+                      <div id="image" style="display:inline;">
+                        <img src="http://edotm.info/wp-content/uploads/2016/08/LinkedIn.png"  width="20%"/>
+                      </div>
+                      <div id="texts" style="display:inline; white-space:nowrap"> 
+                        <a href="https://www.linkedin.com/in/scott-t-miller
+      "  target="_blank"  style='text-decoration: none; color: #000'>LinkedIn</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div id="iContainer" style="white-space:nowrap">
+                      <div id="image" style="display:inline;">
+                         <img src="http://image.flaticon.com/icons/png/512/174/174858.png"  width="20%"/>
+                      </div>
+                      <div id="texts" style="display:inline; white-space:nowrap;"> 
+                        <a href="https://medium.com/@ScottTMllr" target="_blank"  style='text-decoration: none; color: #000'>Medium</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="dropdown-header" style="padding-left: -50%">Or reach out directly</li>
+                  <li ><div id="iContainer"><a href="#" style='color: #000; padding-left: 10%; font-size: .85em'>Scott.T.Miller1@gmail.com</a></div></li>
+                </ul>
+              </li> <!-- END OF FIND ME SUB-LIST in navbar-->
+              <li class="dropdown">
+                <div id='navDown1' class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More Things I've Built<span class="caret"></span></div>
+                <!-- BELOW: items in the STUFF I'VE BUILT sub-list -->
+                <ul class="dropdown-menu" style='min-width: 180px'>
+               <li>
+                  <div id="iContainer" style="white-space:nowrap">
+                    <div id="image" style="display:inline;">
+                      <img src="http://vignette1.wikia.nocookie.net/barsoom/images/1/1e/Earth.png/revision/latest?cb=20110912212924"  width="15%"/>
+                    </div>
+                    <div id="texts" style="display:inline; white-space:nowrap;"> 
+                      <a href="https://theCopernicusGame.com" target="_blank"  style='text-decoration: none; color: #000'>The Copernicus Game</a>
+                    </div>
+                    </div>
+                  </li>
+                  <li >
+                    <div id="iContainer" style="white-space:nowrap">
+                      <div id="image" style="display:inline;">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/b/ba/Philadelphia_76ers_Logo.png"  width="15%"/>
+                      </div>
+                      <div id="texts" style="display:inline; white-space:nowrap;"> 
+                        <a href="https://developedbyscottmiller.herokuapp.com/Sixers" target="_blank" style='text-decoration: none; color: #000'>Sixers Dashboard</a>
+                      </div>
+                    </div>
+                   </li>
+
+                  <li >
+                    <div id="iContainer" style="white-space:nowrap">
+                      <div id="image" style="display:inline; padding-left: 1.5%; padding-right: 2%">
+                        <img src="https://lh3.ggpht.com/v7WUgYkY7HsnvWfyOMeZEb71eLkyY2gqE1XSSjH9mSLkMQ3RFoa21KmLyDX4uvqYW0y_=w300"  width="13%"/>
+                      </div>
+                      <div id="texts" style="display:inline; white-space:nowrap;"> 
+                        <a href="https://bogglebyscottmiller.herokuapp.com/" target="_blank" style='text-decoration: none; color: #000'>Boggle</a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li >
+                    <div id="iContainer" style="white-space:nowrap">
+                      <div id="image" style="display:inline;">
+                        <img src="http://www.freeiconspng.com/uploads/bird-new-single-twitter-icon--icon-search-engine-28.png"  width="15%"/>
+                      </div>
+                      <div id="texts" style="display:inline; white-space:nowrap;"> 
+                        <a href="https://scottmillertwittersearchparty.herokuapp.com/twitter/" target="_blank" style='text-decoration: none; color: #000'>Twitter SearchParty</a>
+                      </div>
+                    </div>
+                   </li>
+                </ul>
+              </li> <!-- CLOSES STUFF I'VE BUILT sub-menu in navbar -->
+
+              <li class="dropdown"> <!-- WHAT I WORK WITH sub-menu in navbar -->
+                <div id='navDown1' class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Stuff I Work With<span class="caret"></span></div>
+                <ul class="dropdown-menu">
+                  <li ><div id="iContainer2"><a href="#" style='color: #000'>Javascript</a></div></li>
+                  <!-- NOTE: inline styling used because classes/id used for navbar body, navbar dropdown items -->
+                  <li ><div id="iContainer2"><a href="#" style='color: #000'>Node</a></div></li>
+                  <li ><div id="iContainer2"><a href="#" style='color: #000'>Redis</a></div></li>
+                  <li ><div id="iContainer2"><a href="#" style='color: #000'>Angular</a></div></li>
+                  <li ><div id="iContainer2"><a href="#" style='color: #000'>React</a></div></li>
+                  <li ><div id="iContainer2"><a href="#" style='color: #000'>Three.js</a></div></li>
+                  <li ><div id="iContainer2"><a href="#" style='color: #000'>Mongo</a></div></li>
+                  <li ><div id="iContainer2"><a href="#" style='color: #000'>HTML5/CSS3</a></div></li>
+                </ul>
+              </li> <!-- CLOSES WHAT I WORK WITH sub-menu in navbar -->
+            </ul> <!-- CLOSES body of navbar  -->
+          </div> <!-- CLOSES whole navbar (body and header) -->
+        </div> <!-- CLOSES fluid-container re bootstrap responsiveness -->
+      </nav> 
+
+
+    <!-- all actions listed in forms are referenced in server.js re which action to take in userController      ln 146  action='/addPlayer'  method='POST' LINE 155: method='POST' action='/update'-->
+   <!--  <h2 class='toph1'>DREAM SIXERS</h2> -->
+    <form class='inline' id='addPlayer'>
+      <h1>Add a New Sixer!</h1>
+      <input style='color: #000' class='change' type='text' id='pname' name='name' placeholder='add player name'><br>
+      <input style='color: #000' class='change' type='text' id='pppg' name='ppg' placeholder='add player PPG'><br>
+      <input style='color: #000' class='change' type='text' id='prpg' name='rpg' placeholder='add player RPG'><br>
+      <input style='color: #000' class='change' type='text' id='papg' name='apg' placeholder='add player APG'><br>
+      <input style='color: #000' class='change' type='text' id='ppic' name='pic' placeholder='add player pic link'><br>
+      <button style='color: white' id='addPlayerBtn' class='tBtn'>Add New Player</button>
+    </form>
+    <form class='inline' id='updatePlayer'>
+      <h1>Update Stats!</h1>
+      <input style='color: #000' class='change' type='text' id='uName' name='name' placeholder='name'><br>
+      <input style='color: #000' class='change' type='text' id='uStat' name='stat' placeholder='item to update (enter as apg, rpg, ppg)'><br>
+      <input style='color: #000' class='change' type='text' id='uUpStat' name='newStat' placeholder='new data'><br>
+      <button style='color: white' class='tBtn'>Update Data</button>
+    </form>
+    <br class='clearBoth' />
+  </div> <!-- Closes mod div where user can add/update imaginary stats/players -->
+
+  <form class='form' id='deletePlayer'> <!-- deletes player from DB -->
+    <input style='color: #000' class='change' type='text' id='delName' name='delName' placeholder='delete name'>
+    <button style='color: white'>Delete Player</button>
+  </form> 
+
+  <button id='realStats' style='color: white'>Go To Real-Time Stats!</button>
+
+  <div id="outer">
+
+  <script src="../Javascript/funStats.js" ></script>
+  </body>
+</html>

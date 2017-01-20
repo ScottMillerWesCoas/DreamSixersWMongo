@@ -1,0 +1,364 @@
+body {
+   font-size:20px;
+   font-family: 'Roboto';
+   color: #fff;
+   text-align:center;
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://i67.tinypic.com/33y2be1.png') no-repeat center center fixed; 
+
+    /*  background: url('http://wallup.net/wp-content/uploads/2015/12/32043-NBA-basketball-Allen_Iverson-Philadelphia_76ers-Philadelphia.jpg');
+ /* -webkit-filter: grayscale(1);
+  filter: grayscale(1);*/
+      -webkit-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+
+
+.toph1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-weight: bolder; 
+  color: #0000FF;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: rgba(200,200,255, .7);
+  border: 1px solid black; 
+  width: 40%;
+  margin-left: 30%; 
+  border-radius: 5px;
+}
+
+.open .dropdown-menu {
+  display:block;
+}
+#realStats{
+  margin-bottom: 2%;
+}
+
+.navbar-custom {
+  background-color: rgba(0,0,0,.1)
+}
+
+.datacell{
+  background-color: rgba(65,105,225, .7); 
+  color: #F0F0F0;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid black;
+  border-radius: 8px; 
+  margin-left: 30px; 
+  padding: 20px;
+  display: inline-block;
+  margin-bottom: 3%; 
+}
+
+.stats{
+  margin-top: -15px; 
+}
+
+.change {
+  width: 80%;
+  color: #000; 
+}
+
+#tweets {
+  display: inline-block;
+  width: 100%;
+  background: url('http://i.cdn.turner.com/drp/nba/sixers/sites/default/files/140812-schedule-crowd-plain1500_15.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#aDownFun {
+  color: #000000;
+}
+
+#aDownFun:hover {
+  color: #00F;
+}
+
+#mod{
+/*  background: url('http://i.cdn.turner.com/nba/nba/teamsites/images/legacy/sixers/ai-logo.jpg?1392156378') repeat center center fixed; 
+  background-repeat: repeat-x;
+  background-size: 10%;
+  background-position: 1% 20%;*/
+}
+
+.inline{
+  margin-top: 5%;
+  float: left;
+  width: 35%;
+  border: 1px solid black;
+  border-radius: 5px; 
+  background-color: rgba(000,000,000,.7); 
+}
+
+#addPlayer{
+  margin-left: 10%; 
+}
+
+.clearBoth { 
+  clear:both; 
+}
+
+#outer{
+/*  background: url('http://www.siwallpaperhd.com/wp-content/uploads/2015/06/nba_basketball_allen_iverson_wallpaper_hd_4.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+
+
+.square {
+   border: 2px solid white;
+   float:left;
+   position: relative;
+   width: 15%;
+   min-height: 50px;
+   padding-bottom : 20%; 
+   margin:1.66%;
+   background-position:center center;
+   background-color: #99FFAA; 
+   background-repeat:no-repeat;
+   background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+}
+
+#added {
+  text-align: center; 
+}
+
+button {
+border:1px solid #616261; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:12px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+ background-color: #7d7e7d; background-image: -webkit-gradient(linear, left top, left bottom, from(#7d7e7d), to(#0e0e0e));
+ background-image: -webkit-linear-gradient(top, #7d7e7d, #0e0e0e);
+ background-image: -moz-linear-gradient(top, #7d7e7d, #0e0e0e);
+ background-image: -ms-linear-gradient(top, #7d7e7d, #0e0e0e);
+ background-image: -o-linear-gradient(top, #7d7e7d, #0e0e0e);
+ background-image: linear-gradient(to bottom, #7d7e7d, #0e0e0e);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7d7e7d, endColorstr=#0e0e0e);
+}
+
+button:hover{
+ border:1px solid #4a4b4a;
+ background-color: #646464; background-image: -webkit-gradient(linear, left top, left bottom, from(#646464), to(#282828));
+ background-image: -webkit-linear-gradient(top, #646464, #282828);
+ background-image: -moz-linear-gradient(top, #646464, #282828);
+ background-image: -ms-linear-gradient(top, #646464, #282828);
+ background-image: -o-linear-gradient(top, #646464, #282828);
+ background-image: linear-gradient(to bottom, #646464, #282828);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#646464, endColorstr=#282828);
+}
+.tBtn{
+  margin-top : 1%;
+  margin-bottom: 1%; 
+}
+
+button:focus {outline:0;}
+
+.navbar-nav > li {
+  margin-left:20px; 
+  margin-right: 20px; 
+  margin-top: 20px; 
+  color: #BDBDBD; 
+}
+
+.navbar-nav > li a {
+  color: #BDBDBD; 
+}
+
+.navbar {
+  margin-bottom: 3%;
+}
+
+#navdown{
+  color: #000; 
+}
+
+#navdown:hover{
+  color: #00F; 
+}
+
+h3 {
+  font-family: 'Montserrat';
+  color: #FAFAFA;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#top2 a, #top a{
+  font-family: 'Montserrat';
+  color: #FAFAFA;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#top2, #top {
+  background-color: rgba(0,0,0, .6);
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#top2 h3 {
+  color: #FAFAFA;
+}
+
+
+.navbar-nav > li a{ 
+  text-decoration: none; 
+  color: #BDBDBD; 
+}
+
+.navbar-nav > li a:hover{
+  color: #FFF; 
+
+} 
+
+.navbar-nav > li:hover{
+  color: #FFF; 
+  filter:brightness(118%);
+}
+.navbar-brand {
+  margin-top: 3px; 
+  color: #BDBDBD; 
+}
+
+.navbar-brand:hover {
+  color: #FFF; 
+  filter:brightness(118%);
+}
+#texts{
+  color: #D3D3D3; 
+}
+
+#texts:hover{
+  color: #D3D3D3; 
+}
+
+.inner a {
+  color: #D3D3D3; 
+}
+
+#iContainer {
+  filter:brightness(90%);
+  white-space:nowrap; 
+}
+
+#iContainer:hover {
+  background-color: #BDBDBD;
+  filter:brightness(90%);
+}
+
+#iContainer2 {
+  padding-left: 5%; 
+  color: #000; 
+  filter:brightness(100%);
+}
+
+#iContainer2:hover {
+  background-color: #BDBDBD;
+  filter:brightness(100%);
+}
+
+#iContainer2 a:hover {
+  background-color: #BDBDBD;
+}
+
+.tools {
+  color: #000; 
+  filter:brightness(100%);
+}
+
+.tools:hover {
+  color: #000; 
+  filter:brightness(100%);
+  background-color: #BDBDBD; 
+}
+
+.shimmer {
+  /* basic styling */
+  font-family: 'Montserrat', sans-serif;
+  font-weight:300;
+  font-size:3em;
+  margin:20px auto;
+  padding: 0 40px;
+  text-align: center;
+  color: rgba(255,255,255,0.1);
+}
+
+.shimmer {
+    /* animation details */
+  background: -webkit-gradient(linear,left top,right top,from(#0000ff),to(#00f),color-stop(.5,#ccccff));
+  background: -moz-gradient(linear,left top,right top,from(#00f),to(#00f),color-stop(.5,#ccccff));
+  background: gradient(linear,left top,right top,from(#00f),to(#00f),color-stop(.5,#ccccff));
+  -webkit-background-size: 125px 100%;
+  -moz-background-size: 125px 100%;
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: shimmer;
+  -moz-animation-name: shimmer;
+  -webkit-animation-name: shimmer;
+  animation-name: shimmer;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: 4;
+  -moz-animation-iteration-count: 4;
+  -webkit-animation-iteration-count: 4;
+  animation-iteration-count: 4;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #222;
+}
+
+@-moz-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+
+  100% {
+    background-position: top right;
+  }
+}
+
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+
+  100% {
+    background-position: top right;
+  }
+}
+
+@-o-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+
+  100% {
+    background-position: top right;
+  }
+}
+
+@-ms-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+
+  100% {
+    background-position: top right;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+
+  100% {
+    background-position: top right;
+  }
+}
