@@ -2,14 +2,14 @@ var express = require('express');
 var app = express(); 
 var bodyParser = require('body-parser'); 
 var path = require('path'); 
-var cookieParser = require('cookie-parser'); 
+// var cookieParser = require('cookie-parser'); 
 var userController = require('./userController');
 
 
 app.use(express.static(path.join(__dirname, './'))); 
 
 app.use(bodyParser.urlencoded({extended: true})); 
-app.use(cookieParser()); 
+// app.use(cookieParser()); 
 
 //ADDED RE HEROKU DEPLOYMENT
 app.set('port', (process.env.PORT || 5000)); 
