@@ -8,7 +8,7 @@ var fs = require('fs');
 // mongoose.connect('mongodb://localhost/db'); 
 
 var uristring = 
-  process.env.MONGODB_URI || 
+  process.env.MONGODB_URI || process.env.MONGOLAB_URI ||
   'mongodb://localhost/db';
 
 // The http server will listen to an appropriate port, or default to
