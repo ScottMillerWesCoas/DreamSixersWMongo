@@ -2,7 +2,7 @@
  $(document).ready(function(){
     //Re-directs user to fun fake stats sixers page
     $('#realStats').click(function(){
-        window.location = '../views/SixersRealStats.html'; 
+        window.location = 'https://developedbyscottmiller.herokuapp.com/Sixers/'; 
     }); 
     $('#addPlayer').submit(function(e){
         e.preventDefault(); 
