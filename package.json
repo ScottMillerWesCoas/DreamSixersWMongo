@@ -8,8 +8,8 @@
     "start": "node index.js"
   },
   "engines" : { 
-      "node" : ">=4.1.1",
-      "npm" : ">=2.1.x"
+      "node" : "4.5.0",
+      "npm" : "4.0.2"
   },
   "repository": "https://github.com/mongolab/hello-mongoose.git",
   "authors": [ "Ben Wen", "Chris Chang" ],
